@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ColourMe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="logo">
+  <img src="./ColourMeicon.png" alt="ColourMe logo" class="logo-photo">
+  <span class="logo-text">ColourMe</span>
+</div>
+
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+       <a 
+             href="https://www.apple.com/ca/app-store/" 
+            class="btn-primary"
+            >
+                 Download ColourMe
+                  </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-inner">
+
+        <!-- LEFT: TEXT -->
+        <div class="hero-left">
+          <p class="hero-tagline">Relax. Colour. Create.</p>
+          <h1 class="hero-title">
+            Colouring,<br />
+            Made Simple
+          </h1>
+          <p class="hero-subtitle">
+            Bring colouring books to life with ColourMe!
+            With Digital Colouring Book upload support! The only colouring app 
+            that allows you to upload your own pages/books and 
+            colour them in - made simply!
+          </p>
+
+          <div class="hero-cta-row">
+           <a 
+             href="https://www.apple.com/ca/app-store/" 
+            class="btn-primary"
+            >
+                 Download on the App Store
+                  </a>
+
+            <a href="#video" class="btn-ghost">Watch Demo</a>
+          </div>
+
+          <p class class="hero-small">
+            Available for iPad &amp; iPhone.
+          </p>
+        </div>
+
+        <!-- RIGHT: PHONE MOCKUP -->
+              <!-- RIGHT: TABLET MOCKUP -->
+        <div class="hero-right">
+          <div class="tablet-mockup">
+            <div class="tablet-screen">
+              <div class="screen-wrapper">
+
+                <!-- SCREEN 1: My Colouring Pages (current design) -->
+                <div class="screen screen-1 active">
+                  
+                  <!-- iPad STATUS BAR -->
+                  <div class="status-bar">
+                    <div class="status-left">
+                      <span>9:13 PM</span>
+                      <span class="status-dot">•</span>
+                      <span>Thu Nov 27</span>
+                    </div>
+                    <div class="status-right">
+                      <span class="status-icon">📶</span>
+                      <span class="status-icon">📡</span>
+                      <span class="battery">
+                        <span class="battery-inner"></span>
+                      </span>
+                      <span class="battery-percent">88%</span>
+                    </div>
+                  </div>
+
+                  <!-- APP TOP BAR -->
+                  <div class="app-topbar">
+                    <div class="topbar-left">
+                      <span class="moon-icon">☾</span>
+                      <span class="app-title">My Colouring Pages</span>
+                    </div>
+
+                    <div class="topbar-right">
+                      <button class="icon-button">🛒</button>
+                      <span class="pro-pill">Pro</span>
+                      <button class="icon-button">🗑</button>
+                    </div>
+                  </div>
+
+                  <!-- CONTENT AREA -->
+                  <div class="app-content">
+                    <div class="pages-row">
+
+                      <!-- NEW PAGE CARD -->
+                      <div class="page-item">
+                        <div class="page-card new-page">
+                          <div class="new-inner">
+                            <div class="new-icon">＋</div>
+                            <div class="new-text-main">New Coloring Page</div>
+                          </div>
+                        </div>
+                        <div class="page-caption new-caption">Blank or Upload</div>
+                      </div>
+
+                      <!-- PAGE 1 -->
+                      <div class="page-item">
+                        <div class="page-card">
+                          <div class="page-image page-image-1"></div>
+                        </div>
+                        <div class="page-caption">Photo Page (2)</div>
+                      </div>
+
+                      <!-- PAGE 2 -->
+                      <div class="page-item">
+                        <div class="page-card">
+                          <div class="page-image page-image-2"></div>
+                        </div>
+                        <div class="page-caption">Photo Page</div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <!-- HOME INDICATOR -->
+                  <div class="home-indicator"></div>
+                </div>
+
+               <!-- SCREEN 2: Drawing canvas screen -->
+<div class="screen screen-2">
+
+  <!-- iPad STATUS BAR -->
+  <div class="status-bar">
+    <div class="status-left">
+      <span>9:28 PM</span>
+      <span class="status-dot">•</span>
+      <span>Thu Nov 27</span>
+    </div>
+    <div class="status-right">
+      <span class="status-icon">📶</span>
+      <span class="status-icon">📡</span>
+      <span class="battery">
+        <span class="battery-inner"></span>
+      </span>
+      <span class="battery-percent">87%</span>
+    </div>
+  </div>
+
+  <!-- TOP TOOLBAR -->
+  <div class="draw-topbar">
+    <div class="draw-top-left">
+      <span class="home-icon">⌂</span>
+    </div>
+
+    <div class="draw-top-right">
+      <div class="draw-tools">
+        <button class="tool-icon active">🖊</button>
+        <button class="tool-icon">✏️</button>
+        <button class="tool-icon">⌧</button>
+      </div>
+
+      <div class="draw-actions">
+        <button class="icon-button">↩︎</button>
+        <button class="icon-button">↪︎</button>
+        <button class="icon-button">⤴︎</button>
+        <button class="clear-pill">Clear</button>
+        <div class="color-pill">
+          <span class="color-dot"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN DRAWING AREA -->
+  <div class="draw-main">
+    <!-- Left vertical slider -->
+    <div class="draw-sidebar">
+      <div class="slider-dot"></div>
+      <div class="slider-track">
+        <div class="slider-thumb"></div>
+      </div>
+      <div class="slider-dot"></div>
+    </div>
+
+    <!-- Central canvas -->
+    <div class="draw-canvas-area">
+      <div class="draw-canvas-frame">
+        <div class="draw-canvas-page">
+          <!-- placeholder for line art -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM PAGE THUMB STRIP -->
+  <div class="draw-bottom-strip">
+    <div class="thumb-page active">
+      <div class="thumb-image"></div>
+      <div class="thumb-index">1</div>
+    </div>
+  </div>
+
+  <!-- HOME INDICATOR -->
+  <div class="home-indicator"></div>
+</div>
+
+
+
+
+
+      </div>
+    </section>
+  </main>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const screens = document.querySelectorAll(".screen-wrapper .screen");
+    if (screens.length <= 1) return;
+
+    let index = 0;
+
+    setInterval(() => {
+      // remove active from current
+      screens[index].classList.remove("active");
+
+      // move to next screen
+      index = (index + 1) % screens.length;
+
+      // show next
+      screens[index].classList.add("active");
+    }, 6000); // change every 6 seconds
+  });
+</script>
+
+
+</body>
+</html>

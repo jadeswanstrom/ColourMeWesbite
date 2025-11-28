@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – ColourMe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR (same as home page) -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="logo">
+        <!-- use your real image if you added it -->
+        <img src="./ColourMeicon.png" alt="ColourMe logo" class="logo-photo">
+        <span class="logo-text">ColourMe</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a 
+          href="https://www.apple.com/ca/app-store/" 
+          class="btn-primary"
+           >
+              Download on the App Store
+              </a>
+
+    </div>
+  </header>
+
+  <!-- CONTACT PAGE CONTENT -->
+  <main class="contact-page">
+    <section class="contact">
+      <div class="container contact-inner">
+        <div class="contact-left">
+          <h1 class="contact-title">Contact Us</h1>
+          <p class="contact-subtitle">
+            Have questions about ColourMe, want to report a bug, or share feature ideas?
+            Send us a message and we’ll get back to you as soon as we can.
+          </p>
+
+          <ul class="contact-details">
+            <li><strong>Email:</strong> thecolourmeapp@gmail.com</li>
+            <li><strong>Support:</strong> thecolourmeapp@gmail.com</li>
+          </ul>
+        </div>
+
+       <form
+
+ <form
+  class="contact-form"
+  action="https://formspree.io/f/xvgjwpno"
+  method="POST"
+>
+  <div class="form-row">
+    <div class="form-field">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your name"
+        required
+      >
+    </div>
+
+    <div class="form-field">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="you@example.com"
+        required
+      >
+    </div>
+  </div>
+
+  <div class="form-field">
+    <label for="subject">Subject</label>
+    <input
+      type="text"
+      id="subject"
+      name="subject"
+      placeholder="How can we help?"
+      required
+    >
+  </div>
+
+  <div class="form-field">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="4"
+      placeholder="Tell us about your question or idea…"
+      required
+    ></textarea>
+  </div>
+
+  <button type="submit" class="btn-primary contact-btn">
+    Send Message
+  </button>
+  <input type="hidden" name="_redirect" value="https://colourme.app/contact.html">
+
+</form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
